@@ -11,7 +11,7 @@ export default function Home() {
             italiano.
           </p>
           <a className="cta" href="#contatti">
-            Scopri di più
+            I nostri prodotti
           </a>
         </div>
       </header>
@@ -44,7 +44,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contatti" className="section section-alt">
+      <section id="orari" className="section section-alt">
+        <div className="container">
+          <h2>Orari di apertura</h2>
+          <div className="hours">
+            <div className="hours-item">
+              <span>Lunedì – Venerdì</span>
+              <span>7:00 – 19:30</span>
+            </div>
+            <div className="hours-item">
+              <span>Sabato</span>
+              <span>8:00 – 20:00</span>
+            </div>
+            <div className="hours-item">
+              <span>Domenica</span>
+              <span>9:00 – 13:00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contatti" className="section">
         <div className="container">
           <h2>Contatti</h2>
           <p>Vieni a trovarci o scrivici: saremo felici di risponderti.</p>

@@ -118,6 +118,30 @@ h3 {
   font-size: 1.2rem;
 }
 
+.hours {
+  max-width: 480px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hours-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--cream-light);
+  border: 1px solid rgba(111, 78, 55, 0.15);
+  border-radius: 12px;
+  padding: 14px 20px;
+  font-weight: 600;
+  color: var(--brown);
+}
+
+.hours-item span:last-child {
+  color: var(--orange);
+}
+
 .contacts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
